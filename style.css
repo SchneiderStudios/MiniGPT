@@ -1,0 +1,12 @@
+body { margin:0; font-family:Inter, sans-serif; background:#f9fafb; color:#1f2937; }
+header { text-align:center; padding:20px 0; background:#fff; }
+.logo { height:80px; }
+.hero { max-height:400px; overflow:hidden; }
+.hero img { width:100%; height:auto; object-fit:cover; }
+.section { max-width:800px; margin:40px auto; padding:0 20px; }
+.topics { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; }
+.topic-block { background:#fff; padding:20px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1); text-align:center; }
+.center-buttons { text-align:center; margin:20px 0; }
+.btn { background:#4f46e5; color:#fff; padding:12px 24px; border-radius:6px; text-decoration:none; margin:5px; display:inline-block; }
+footer { background:#eee; text-align:center; padding:20px; margin-top:40px; }
+details { margin:10px 0; }

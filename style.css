@@ -1,18 +1,14 @@
-body { margin:0; font-family:'Inter', sans-serif; background:#f9fafb; color:#1f2937; }
-header { text-align:center; padding:20px; background:#fff; box-shadow:0 1px 3px rgba(0,0,0,0.1); position: relative; }
-.lang-switch { position: absolute; top: 10px; right: 20px; }
-.lang-switch a { margin: 0 5px; text-decoration: none; color: #4f46e5; }
-.lang-switch a.active { font-weight: bold; }
-.logo { height:80px; margin-bottom: 10px; }
-.hero img { width:100%; max-height:300px; object-fit:cover; }
-.section { max-width:800px; margin:40px auto; padding:0 20px; }
-.topics { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:20px; }
-.topic-block { background:#fff; padding:20px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1); text-align:center; }
-.center-buttons { text-align:center; margin:20px 0; display: flex; flex-wrap: wrap; justify-content: center; }
-.btn { background:#4f46e5; color:#fff; padding:10px 20px; margin:5px; text-decoration:none; border-radius:6px; flex: 1 1 150px; text-align: center; }
-@media (max-width: 600px) {
-  .center-buttons .btn { width: 80%; margin: 10px auto; }
-}
-details { margin:10px 0; }
-footer { background:#eee; text-align:center; padding:20px; margin-top:40px; }
-a { color:#4f46e5; text-decoration:none; }
+
+body{margin:0;font-family:Inter,sans-serif;background:#f9fafb;color:#1f2937}
+header{text-align:center;padding:20px;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,0.1)}
+.logo{height:80px;margin-bottom:10px}
+.hero img{width:100%;max-height:300px;object-fit:cover}
+.section{max-width:800px;margin:40px auto;padding:0 20px}
+.topics{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}
+.topic{background:#fff;padding:20px;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.1);text-align:center}
+.center{text-align:center;margin:20px 0}
+.btn{display:inline-block;padding:12px 24px;margin:5px;background:#4f46e5;color:#fff;text-decoration:none;border-radius:6px;min-width:160px}
+@media(max-width:600px){.btn{display:block;width:80%;margin:10px auto}}
+.details summary{cursor:pointer;font-weight:bold;margin:10px 0}
+.review-card{background:#fff;padding:20px;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.1);margin-bottom:20px;}
+footer{text-align:center;padding:20px;background:#eee}
